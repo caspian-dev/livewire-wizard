@@ -20,7 +20,7 @@
     "require": {
         "php": "^8.0|^8.1",
         "livewire/livewire": "^2.0",
-        "wireui/wireui": "^1.0",
+        "wireui/wireui": "dev-main",
         "spatie/laravel-package-tools": "^1.9"
     },
     "autoload": {
@@ -39,5 +39,12 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/caspian-dev/wireui"
+        }
+     
+    ]
 }
